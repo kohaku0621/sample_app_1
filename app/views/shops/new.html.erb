@@ -1,0 +1,12 @@
+<%= form_tag("/shops/create") do %>
+
+
+<label for="shop_name">お店の名前</label>
+<input type="text" name="name" id="item_item">
+<br>
+<%= form_tag("URL",{multipart:true}) %>
+<input name="image" type="file">
+<br>
+<input type="submit" value="送信">
+
+<% end %>
